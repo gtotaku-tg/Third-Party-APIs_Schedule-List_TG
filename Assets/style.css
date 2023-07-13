@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-color: #688788;
 }
 
 textarea {
@@ -10,6 +11,19 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+}
+
+.btn-outline-warning:hover{
+  
+  transition: all 0.3s ease-in-out;
+}
+
+
+header{
+  background-color: #425656;
+  color: rgb(219, 219, 219);
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 .description {
